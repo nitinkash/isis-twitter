@@ -30,10 +30,30 @@ for user, tweet in actual_tweets:
 # Visualizations in nx
 import networkx as nx
 all_users = [item for i in in_set for item in i] #Check comprehension!!!
-all_users = list(set(all_users))
-graph = nx.Graph()
+fanboys = list(set(all_users))
+g = nx.Graph()
+for i in fanboys:
+	g.add_nodes(i)
+#Using a weighted edge to denote relationships based on the number of tweets
+edges = {}
+from collections import Counter
+occ_count = Counter(map(tuple, in_set)) #Map in_set to a tuple
+for (sender, receiver), count in occ_count.items():
+	if (receiver, sender) in edges.keys():
+		edges[(receiver, sender)] = edges[(receiver, sender)] + count
+	else:
+		edges[(sender, receiver)] = count
+        
+for (sender, receiver), count in edges.items():
+	g.add_edge(sender, receiver, weight=count)
 
+#Export to gexf fro gephi
+nx.write_gexf(g, "mentions_network")
 
+# Exploration using tweepy( Modify to web scraping method)
+
+		
+	
 
 for i in len(first.tweets):
 		
