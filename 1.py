@@ -52,8 +52,15 @@ nx.write_gexf(g, "mentions_network")
 
 # Exploration using tweepy( Modify to web scraping method)
 
-		
-	
+''''import tweepy as tp
+for users in fanboys:
+	''''	
+
+# Run on a remote when 	
+from bs4 import BeautifulSoup
+
+
+
 
 for i in len(first.tweets):
 		
