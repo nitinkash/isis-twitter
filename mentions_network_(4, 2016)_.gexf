@@ -1,153 +1,368 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="betweenness" type="double" />
+    </attributes>
     <nodes>
-      <node id="DabiqsweetsMan" label="DabiqsweetsMan" />
-      <node id="AsimAbuMerjem" label="AsimAbuMerjem" />
-      <node id="alamreeki4" label="alamreeki4" />
-      <node id="Abu_Azzzam25" label="Abu_Azzzam25" />
-      <node id="MaghrebiQ" label="MaghrebiQ" />
-      <node id="IbnKashmir_" label="IbnKashmir_" />
-      <node id="abuayisha102" label="abuayisha102" />
-      <node id="Freedom_speech2" label="Freedom_speech2" />
-      <node id="AbuNaseeha_03" label="AbuNaseeha_03" />
-      <node id="darulhijrateyni" label="darulhijrateyni" />
-      <node id="WarReporter1" label="WarReporter1" />
-      <node id="ManKhalfahum" label="ManKhalfahum" />
-      <node id="_IshfaqAhmad" label="_IshfaqAhmad" />
-      <node id="__alfresco__" label="__alfresco__" />
-      <node id="safiyaimback" label="safiyaimback" />
-      <node id="thefIamesofhaqq" label="thefIamesofhaqq" />
-      <node id="wayf44rerr" label="wayf44rerr" />
-      <node id="Nidalgazaui" label="Nidalgazaui" />
-      <node id="mustafaklash56" label="mustafaklash56" />
-      <node id="Jazrawi_Saraqib" label="Jazrawi_Saraqib" />
-      <node id="Uncle_SamCoco" label="Uncle_SamCoco" />
-      <node id="Abu_Ibn_Taha" label="Abu_Ibn_Taha" />
-      <node id="warreporter2" label="warreporter2" />
-      <node id="MilkSheikh2" label="MilkSheikh2" />
-      <node id="Mosul_05" label="Mosul_05" />
-      <node id="moustiklash" label="moustiklash" />
-      <node id="NaseemAhmed50" label="NaseemAhmed50" />
-      <node id="MaghrebiHD" label="MaghrebiHD" />
-      <node id="ismailmahsud" label="ismailmahsud" />
-      <node id="abutariq040" label="abutariq040" />
-      <node id="QassamiMarwan" label="QassamiMarwan" />
-      <node id="EPlC24" label="EPlC24" />
-      <node id="mustaklash" label="mustaklash" />
-      <node id="Suspend_Me_fags" label="Suspend_Me_fags" />
-      <node id="Fidaee_Fulaani" label="Fidaee_Fulaani" />
-      <node id="432Mryam" label="432Mryam" />
-      <node id="abuhumayra4" label="abuhumayra4" />
-      <node id="grezz10" label="grezz10" />
-      <node id="murasil1" label="murasil1" />
-      <node id="Jazrawi_Joulan" label="Jazrawi_Joulan" />
-      <node id="MaghrabiArabi" label="MaghrabiArabi" />
-      <node id="WhiteCat_7" label="WhiteCat_7" />
-      <node id="warrnews" label="warrnews" />
-      <node id="FidaeeFulaani" label="FidaeeFulaani" />
-      <node id="abuayisha108" label="abuayisha108" />
-      <node id="klakishinki" label="klakishinki" />
-      <node id="RamiAlLolah" label="RamiAlLolah" />
-      <node id="MaghrebiQM" label="MaghrebiQM" />
-      <node id="DawlaWitness11" label="DawlaWitness11" />
-      <node id="MaghrebiWM" label="MaghrebiWM" />
-      <node id="mobi_ayubi" label="mobi_ayubi" />
-      <node id="1515Ummah" label="1515Ummah" />
-      <node id="ansarakhilafa" label="ansarakhilafa" />
+      <node id="_IshfaqAhmad" label="_IshfaqAhmad">
+        <attvalues>
+          <attvalue for="0" value="0.00988509521313988" />
+        </attvalues>
+      </node>
+      <node id="__alfresco__" label="__alfresco__">
+        <attvalues>
+          <attvalue for="0" value="0.004178048053639065" />
+        </attvalues>
+      </node>
+      <node id="MaghrebiQ" label="MaghrebiQ">
+        <attvalues>
+          <attvalue for="0" value="0.006738694696354745" />
+        </attvalues>
+      </node>
+      <node id="RamiAlLolah" label="RamiAlLolah">
+        <attvalues>
+          <attvalue for="0" value="0.6367527922596323" />
+        </attvalues>
+      </node>
+      <node id="murasil1" label="murasil1">
+        <attvalues>
+          <attvalue for="0" value="0.00021791610844664914" />
+        </attvalues>
+      </node>
+      <node id="Abu_Ibn_Taha" label="Abu_Ibn_Taha">
+        <attvalues>
+          <attvalue for="0" value="0.008333364271284891" />
+        </attvalues>
+      </node>
+      <node id="grezz10" label="grezz10">
+        <attvalues>
+          <attvalue for="0" value="0.00023460322716809727" />
+        </attvalues>
+      </node>
+      <node id="darulhijrateyni" label="darulhijrateyni">
+        <attvalues>
+          <attvalue for="0" value="3.0498127511974776e-05" />
+        </attvalues>
+      </node>
+      <node id="Fidaee_Fulaani" label="Fidaee_Fulaani">
+        <attvalues>
+          <attvalue for="0" value="0.0035100048084770567" />
+        </attvalues>
+      </node>
+      <node id="Suspend_Me_fags" label="Suspend_Me_fags">
+        <attvalues>
+          <attvalue for="0" value="0.0020154195859728753" />
+        </attvalues>
+      </node>
+      <node id="Jazrawi_Joulan" label="Jazrawi_Joulan">
+        <attvalues>
+          <attvalue for="0" value="0.06921115674132082" />
+        </attvalues>
+      </node>
+      <node id="EPlC24" label="EPlC24">
+        <attvalues>
+          <attvalue for="0" value="0.007487600397399544" />
+        </attvalues>
+      </node>
+      <node id="alamreeki4" label="alamreeki4">
+        <attvalues>
+          <attvalue for="0" value="0.024675925027382303" />
+        </attvalues>
+      </node>
+      <node id="abuhumayra4" label="abuhumayra4">
+        <attvalues>
+          <attvalue for="0" value="0.035319413159637235" />
+        </attvalues>
+      </node>
+      <node id="Freedom_speech2" label="Freedom_speech2">
+        <attvalues>
+          <attvalue for="0" value="0.04973723028035395" />
+        </attvalues>
+      </node>
+      <node id="DawlaWitness11" label="DawlaWitness11">
+        <attvalues>
+          <attvalue for="0" value="0.0003097585535952469" />
+        </attvalues>
+      </node>
+      <node id="abutariq040" label="abutariq040">
+        <attvalues>
+          <attvalue for="0" value="1.3016925387200764e-94" />
+        </attvalues>
+      </node>
+      <node id="mustafaklash56" label="mustafaklash56">
+        <attvalues>
+          <attvalue for="0" value="0.0004803867821334042" />
+        </attvalues>
+      </node>
+      <node id="Jazrawi_Saraqib" label="Jazrawi_Saraqib">
+        <attvalues>
+          <attvalue for="0" value="0.052517863449957715" />
+        </attvalues>
+      </node>
+      <node id="DabiqsweetsMan" label="DabiqsweetsMan">
+        <attvalues>
+          <attvalue for="0" value="0.04428257536273379" />
+        </attvalues>
+      </node>
+      <node id="Abu_Azzzam25" label="Abu_Azzzam25">
+        <attvalues>
+          <attvalue for="0" value="0.03321193152205035" />
+        </attvalues>
+      </node>
+      <node id="1515Ummah" label="1515Ummah">
+        <attvalues>
+          <attvalue for="0" value="0.020833410678212233" />
+        </attvalues>
+      </node>
+      <node id="abuayisha108" label="abuayisha108">
+        <attvalues>
+          <attvalue for="0" value="0.02568871342238436" />
+        </attvalues>
+      </node>
+      <node id="AbuNaseeha_03" label="AbuNaseeha_03">
+        <attvalues>
+          <attvalue for="0" value="0.010089676366635617" />
+        </attvalues>
+      </node>
+      <node id="MaghrebiWM" label="MaghrebiWM">
+        <attvalues>
+          <attvalue for="0" value="0.017816667284433024" />
+        </attvalues>
+      </node>
+      <node id="ismailmahsud" label="ismailmahsud">
+        <attvalues>
+          <attvalue for="0" value="0.21835404266933406" />
+        </attvalues>
+      </node>
+      <node id="Nidalgazaui" label="Nidalgazaui">
+        <attvalues>
+          <attvalue for="0" value="0.10086814390692382" />
+        </attvalues>
+      </node>
+      <node id="AsimAbuMerjem" label="AsimAbuMerjem">
+        <attvalues>
+          <attvalue for="0" value="0.08965509838316006" />
+        </attvalues>
+      </node>
+      <node id="wayf44rerr" label="wayf44rerr">
+        <attvalues>
+          <attvalue for="0" value="0.005079756454659447" />
+        </attvalues>
+      </node>
+      <node id="warrnews" label="warrnews">
+        <attvalues>
+          <attvalue for="0" value="0.07264991599167706" />
+        </attvalues>
+      </node>
+      <node id="abuayisha102" label="abuayisha102">
+        <attvalues>
+          <attvalue for="0" value="2.401198912442651e-75" />
+        </attvalues>
+      </node>
+      <node id="NaseemAhmed50" label="NaseemAhmed50">
+        <attvalues>
+          <attvalue for="0" value="0.0017542229553503983" />
+        </attvalues>
+      </node>
+      <node id="klakishinki" label="klakishinki">
+        <attvalues>
+          <attvalue for="0" value="0.0649558100520075" />
+        </attvalues>
+      </node>
+      <node id="Mosul_05" label="Mosul_05">
+        <attvalues>
+          <attvalue for="0" value="1.3016925387200764e-94" />
+        </attvalues>
+      </node>
+      <node id="MaghrebiQM" label="MaghrebiQM">
+        <attvalues>
+          <attvalue for="0" value="0.05051056644117687" />
+        </attvalues>
+      </node>
+      <node id="ansarakhilafa" label="ansarakhilafa">
+        <attvalues>
+          <attvalue for="0" value="0.04043216817812847" />
+        </attvalues>
+      </node>
+      <node id="MilkSheikh2" label="MilkSheikh2">
+        <attvalues>
+          <attvalue for="0" value="0.0606079228283741" />
+        </attvalues>
+      </node>
+      <node id="FidaeeFulaani" label="FidaeeFulaani">
+        <attvalues>
+          <attvalue for="0" value="0.027630488574514837" />
+        </attvalues>
+      </node>
+      <node id="MaghrebiHD" label="MaghrebiHD">
+        <attvalues>
+          <attvalue for="0" value="0.010905376831997191" />
+        </attvalues>
+      </node>
+      <node id="mustaklash" label="mustaklash">
+        <attvalues>
+          <attvalue for="0" value="0.0004803867821334042" />
+        </attvalues>
+      </node>
+      <node id="IbnKashmir_" label="IbnKashmir_">
+        <attvalues>
+          <attvalue for="0" value="0.0001301798010641399" />
+        </attvalues>
+      </node>
+      <node id="moustiklash" label="moustiklash">
+        <attvalues>
+          <attvalue for="0" value="0.037904539544700855" />
+        </attvalues>
+      </node>
+      <node id="thefIamesofhaqq" label="thefIamesofhaqq">
+        <attvalues>
+          <attvalue for="0" value="0.04294470217170474" />
+        </attvalues>
+      </node>
+      <node id="warreporter2" label="warreporter2">
+        <attvalues>
+          <attvalue for="0" value="0.17713030145093517" />
+        </attvalues>
+      </node>
+      <node id="WhiteCat_7" label="WhiteCat_7">
+        <attvalues>
+          <attvalue for="0" value="0.005069274692030807" />
+        </attvalues>
+      </node>
+      <node id="QassamiMarwan" label="QassamiMarwan">
+        <attvalues>
+          <attvalue for="0" value="0.05566325028396429" />
+        </attvalues>
+      </node>
+      <node id="safiyaimback" label="safiyaimback">
+        <attvalues>
+          <attvalue for="0" value="0.01505397072896789" />
+        </attvalues>
+      </node>
+      <node id="MaghrabiArabi" label="MaghrabiArabi">
+        <attvalues>
+          <attvalue for="0" value="0.38760452804821666" />
+        </attvalues>
+      </node>
+      <node id="ManKhalfahum" label="ManKhalfahum">
+        <attvalues>
+          <attvalue for="0" value="0.006746852035740825" />
+        </attvalues>
+      </node>
+      <node id="mobi_ayubi" label="mobi_ayubi">
+        <attvalues>
+          <attvalue for="0" value="0.07289534272820991" />
+        </attvalues>
+      </node>
+      <node id="432Mryam" label="432Mryam">
+        <attvalues>
+          <attvalue for="0" value="2.401198912442651e-75" />
+        </attvalues>
+      </node>
+      <node id="Uncle_SamCoco" label="Uncle_SamCoco">
+        <attvalues>
+          <attvalue for="0" value="0.23966043727036" />
+        </attvalues>
+      </node>
+      <node id="WarReporter1" label="WarReporter1">
+        <attvalues>
+          <attvalue for="0" value="0.49253200732298585" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
-      <edge id="0" source="DabiqsweetsMan" target="RamiAlLolah" />
-      <edge id="1" source="AsimAbuMerjem" target="RamiAlLolah" />
-      <edge id="2" source="AsimAbuMerjem" target="Jazrawi_Saraqib" />
-      <edge id="3" source="AsimAbuMerjem" target="warrnews" />
-      <edge id="4" source="AsimAbuMerjem" target="MilkSheikh2" />
-      <edge id="5" source="alamreeki4" target="mobi_ayubi" />
-      <edge id="6" source="alamreeki4" target="RamiAlLolah" />
-      <edge id="7" source="Abu_Azzzam25" target="RamiAlLolah" />
-      <edge id="8" source="MaghrebiQ" target="MaghrabiArabi" />
-      <edge id="9" source="IbnKashmir_" target="EPlC24" />
-      <edge id="10" source="abuayisha102" target="432Mryam" />
-      <edge id="11" source="Freedom_speech2" target="mobi_ayubi" />
-      <edge id="12" source="Freedom_speech2" target="MaghrabiArabi" />
-      <edge id="13" source="Freedom_speech2" target="WarReporter1" />
-      <edge id="14" source="Freedom_speech2" target="RamiAlLolah" />
-      <edge id="15" source="Freedom_speech2" target="Nidalgazaui" />
-      <edge id="16" source="AbuNaseeha_03" target="MaghrebiQM" />
-      <edge id="17" source="AbuNaseeha_03" target="Uncle_SamCoco" />
-      <edge id="18" source="darulhijrateyni" target="NaseemAhmed50" />
-      <edge id="19" source="WarReporter1" target="safiyaimback" />
-      <edge id="20" source="WarReporter1" target="thefIamesofhaqq" />
-      <edge id="21" source="WarReporter1" target="Jazrawi_Saraqib" />
-      <edge id="22" source="WarReporter1" target="klakishinki" />
-      <edge id="23" source="WarReporter1" target="RamiAlLolah" />
-      <edge id="24" source="WarReporter1" target="Uncle_SamCoco" />
-      <edge id="25" source="WarReporter1" target="Nidalgazaui" />
-      <edge id="26" source="WarReporter1" target="Jazrawi_Joulan" />
-      <edge id="27" source="WarReporter1" target="warrnews" />
-      <edge id="28" source="WarReporter1" target="abuayisha108" />
-      <edge id="29" source="WarReporter1" target="moustiklash" />
-      <edge id="30" source="ManKhalfahum" target="MaghrabiArabi" />
-      <edge id="31" source="ManKhalfahum" target="grezz10" />
-      <edge id="32" source="_IshfaqAhmad" target="moustiklash" />
-      <edge id="33" source="__alfresco__" target="Uncle_SamCoco" />
-      <edge id="34" source="__alfresco__" target="murasil1" />
-      <edge id="35" source="safiyaimback" target="warrnews" />
-      <edge id="36" source="safiyaimback" target="Suspend_Me_fags" />
-      <edge id="37" source="safiyaimback" target="Nidalgazaui" />
-      <edge id="38" source="safiyaimback" target="Jazrawi_Saraqib" />
-      <edge id="39" source="thefIamesofhaqq" target="EPlC24" />
-      <edge id="40" source="wayf44rerr" target="Uncle_SamCoco" />
-      <edge id="41" source="wayf44rerr" target="Jazrawi_Saraqib" />
-      <edge id="42" source="Nidalgazaui" target="ismailmahsud" />
-      <edge id="43" source="Nidalgazaui" target="QassamiMarwan" />
-      <edge id="44" source="Nidalgazaui" target="MaghrebiQM" />
-      <edge id="45" source="Nidalgazaui" target="Fidaee_Fulaani" />
-      <edge id="46" source="Nidalgazaui" target="mobi_ayubi" />
-      <edge id="47" source="Nidalgazaui" target="Uncle_SamCoco" />
-      <edge id="48" source="Nidalgazaui" target="Suspend_Me_fags" />
-      <edge id="49" source="Nidalgazaui" target="warrnews" />
-      <edge id="50" source="Nidalgazaui" target="MaghrabiArabi" />
-      <edge id="51" source="Nidalgazaui" target="NaseemAhmed50" />
-      <edge id="52" source="mustafaklash56" target="FidaeeFulaani" />
-      <edge id="53" source="Jazrawi_Saraqib" target="mobi_ayubi" />
-      <edge id="54" source="Jazrawi_Saraqib" target="MaghrebiWM" />
-      <edge id="55" source="Jazrawi_Saraqib" target="MaghrabiArabi" />
-      <edge id="56" source="Jazrawi_Saraqib" target="RamiAlLolah" />
-      <edge id="57" source="Uncle_SamCoco" target="MaghrebiHD" />
-      <edge id="58" source="Uncle_SamCoco" target="MaghrebiWM" />
-      <edge id="59" source="Uncle_SamCoco" target="RamiAlLolah" />
-      <edge id="60" source="Uncle_SamCoco" target="MaghrebiQM" />
-      <edge id="61" source="Uncle_SamCoco" target="1515Ummah" />
-      <edge id="62" source="Uncle_SamCoco" target="Abu_Ibn_Taha" />
-      <edge id="63" source="Uncle_SamCoco" target="moustiklash" />
-      <edge id="64" source="Uncle_SamCoco" target="MilkSheikh2" />
-      <edge id="65" source="warreporter2" target="RamiAlLolah" />
-      <edge id="66" source="MilkSheikh2" target="moustiklash" />
-      <edge id="67" source="MilkSheikh2" target="abuhumayra4" />
-      <edge id="68" source="Mosul_05" target="abutariq040" />
-      <edge id="69" source="moustiklash" target="FidaeeFulaani" />
-      <edge id="70" source="MaghrebiHD" target="MaghrabiArabi" />
-      <edge id="71" source="ismailmahsud" target="RamiAlLolah" />
-      <edge id="72" source="ismailmahsud" target="MaghrabiArabi" />
-      <edge id="73" source="QassamiMarwan" target="MaghrabiArabi" />
-      <edge id="74" source="EPlC24" target="MaghrabiArabi" />
-      <edge id="75" source="mustaklash" target="FidaeeFulaani" />
-      <edge id="76" source="Fidaee_Fulaani" target="MaghrebiQM" />
-      <edge id="77" source="abuhumayra4" target="RamiAlLolah" />
-      <edge id="78" source="Jazrawi_Joulan" target="MaghrabiArabi" />
-      <edge id="79" source="MaghrabiArabi" target="FidaeeFulaani" />
-      <edge id="80" source="MaghrabiArabi" target="MaghrebiQM" />
-      <edge id="81" source="MaghrabiArabi" target="MaghrebiWM" />
-      <edge id="82" source="MaghrabiArabi" target="warrnews" />
-      <edge id="83" source="MaghrabiArabi" target="RamiAlLolah" />
-      <edge id="84" source="MaghrabiArabi" target="ansarakhilafa" />
-      <edge id="85" source="WhiteCat_7" target="mobi_ayubi" />
-      <edge id="86" source="warrnews" target="RamiAlLolah" />
-      <edge id="87" source="klakishinki" target="RamiAlLolah" />
-      <edge id="88" source="RamiAlLolah" target="MaghrebiQM" />
-      <edge id="89" source="RamiAlLolah" target="mobi_ayubi" />
-      <edge id="90" source="DawlaWitness11" target="MaghrebiWM" />
+      <edge id="0" source="_IshfaqAhmad" target="moustiklash" weight="15" />
+      <edge id="1" source="__alfresco__" target="Uncle_SamCoco" weight="1" />
+      <edge id="2" source="__alfresco__" target="murasil1" weight="3" />
+      <edge id="3" source="MaghrebiQ" target="MaghrabiArabi" weight="1" />
+      <edge id="4" source="RamiAlLolah" target="AsimAbuMerjem" weight="4" />
+      <edge id="5" source="RamiAlLolah" target="MaghrebiQM" weight="3" />
+      <edge id="6" source="RamiAlLolah" target="abuhumayra4" weight="3" />
+      <edge id="7" source="RamiAlLolah" target="warrnews" weight="1" />
+      <edge id="8" source="RamiAlLolah" target="klakishinki" weight="2" />
+      <edge id="9" source="RamiAlLolah" target="Jazrawi_Saraqib" weight="1" />
+      <edge id="10" source="RamiAlLolah" target="DabiqsweetsMan" weight="4" />
+      <edge id="11" source="RamiAlLolah" target="Abu_Azzzam25" weight="3" />
+      <edge id="12" source="RamiAlLolah" target="warreporter2" weight="16" />
+      <edge id="13" source="RamiAlLolah" target="MaghrabiArabi" weight="25" />
+      <edge id="14" source="RamiAlLolah" target="Freedom_speech2" weight="2" />
+      <edge id="15" source="RamiAlLolah" target="mobi_ayubi" weight="6" />
+      <edge id="16" source="RamiAlLolah" target="ismailmahsud" weight="8" />
+      <edge id="17" source="RamiAlLolah" target="Uncle_SamCoco" weight="10" />
+      <edge id="18" source="RamiAlLolah" target="alamreeki4" weight="2" />
+      <edge id="19" source="RamiAlLolah" target="WarReporter1" weight="37" />
+      <edge id="20" source="Abu_Ibn_Taha" target="Uncle_SamCoco" weight="2" />
+      <edge id="21" source="grezz10" target="ManKhalfahum" weight="2" />
+      <edge id="22" source="darulhijrateyni" target="NaseemAhmed50" weight="1" />
+      <edge id="23" source="Fidaee_Fulaani" target="MaghrebiQM" weight="2" />
+      <edge id="24" source="Fidaee_Fulaani" target="Nidalgazaui" weight="1" />
+      <edge id="25" source="Suspend_Me_fags" target="Nidalgazaui" weight="1" />
+      <edge id="26" source="Suspend_Me_fags" target="safiyaimback" weight="1" />
+      <edge id="27" source="Jazrawi_Joulan" target="MaghrabiArabi" weight="9" />
+      <edge id="28" source="Jazrawi_Joulan" target="WarReporter1" weight="1" />
+      <edge id="29" source="EPlC24" target="MaghrabiArabi" weight="1" />
+      <edge id="30" source="EPlC24" target="IbnKashmir_" weight="1" />
+      <edge id="31" source="EPlC24" target="thefIamesofhaqq" weight="1" />
+      <edge id="32" source="alamreeki4" target="mobi_ayubi" weight="2" />
+      <edge id="33" source="abuhumayra4" target="MilkSheikh2" weight="2" />
+      <edge id="34" source="Freedom_speech2" target="MaghrabiArabi" weight="2" />
+      <edge id="35" source="Freedom_speech2" target="mobi_ayubi" weight="3" />
+      <edge id="36" source="Freedom_speech2" target="Nidalgazaui" weight="1" />
+      <edge id="37" source="Freedom_speech2" target="WarReporter1" weight="1" />
+      <edge id="38" source="DawlaWitness11" target="MaghrebiWM" weight="1" />
+      <edge id="39" source="abutariq040" target="Mosul_05" weight="2" />
+      <edge id="40" source="mustafaklash56" target="FidaeeFulaani" weight="1" />
+      <edge id="41" source="Jazrawi_Saraqib" target="AsimAbuMerjem" weight="1" />
+      <edge id="42" source="Jazrawi_Saraqib" target="wayf44rerr" weight="1" />
+      <edge id="43" source="Jazrawi_Saraqib" target="safiyaimback" weight="1" />
+      <edge id="44" source="Jazrawi_Saraqib" target="MaghrabiArabi" weight="3" />
+      <edge id="45" source="Jazrawi_Saraqib" target="mobi_ayubi" weight="1" />
+      <edge id="46" source="Jazrawi_Saraqib" target="MaghrebiWM" weight="3" />
+      <edge id="47" source="Jazrawi_Saraqib" target="WarReporter1" weight="2" />
+      <edge id="48" source="1515Ummah" target="Uncle_SamCoco" weight="5" />
+      <edge id="49" source="abuayisha108" target="WarReporter1" weight="3" />
+      <edge id="50" source="AbuNaseeha_03" target="MaghrebiQM" weight="2" />
+      <edge id="51" source="AbuNaseeha_03" target="Uncle_SamCoco" weight="2" />
+      <edge id="52" source="MaghrebiWM" target="MaghrabiArabi" weight="1" />
+      <edge id="53" source="MaghrebiWM" target="Uncle_SamCoco" weight="2" />
+      <edge id="54" source="ismailmahsud" target="MaghrabiArabi" weight="19" />
+      <edge id="55" source="ismailmahsud" target="Nidalgazaui" weight="1" />
+      <edge id="56" source="Nidalgazaui" target="safiyaimback" weight="1" />
+      <edge id="57" source="Nidalgazaui" target="warrnews" weight="7" />
+      <edge id="58" source="Nidalgazaui" target="NaseemAhmed50" weight="1" />
+      <edge id="59" source="Nidalgazaui" target="QassamiMarwan" weight="1" />
+      <edge id="60" source="Nidalgazaui" target="MaghrabiArabi" weight="3" />
+      <edge id="61" source="Nidalgazaui" target="MaghrebiQM" weight="1" />
+      <edge id="62" source="Nidalgazaui" target="mobi_ayubi" weight="1" />
+      <edge id="63" source="Nidalgazaui" target="Uncle_SamCoco" weight="5" />
+      <edge id="64" source="Nidalgazaui" target="WarReporter1" weight="5" />
+      <edge id="65" source="AsimAbuMerjem" target="MilkSheikh2" weight="35" />
+      <edge id="66" source="AsimAbuMerjem" target="warrnews" weight="6" />
+      <edge id="67" source="wayf44rerr" target="Uncle_SamCoco" weight="1" />
+      <edge id="68" source="warrnews" target="safiyaimback" weight="3" />
+      <edge id="69" source="warrnews" target="MaghrabiArabi" weight="2" />
+      <edge id="70" source="warrnews" target="WarReporter1" weight="3" />
+      <edge id="71" source="abuayisha102" target="432Mryam" weight="4" />
+      <edge id="72" source="klakishinki" target="WarReporter1" weight="5" />
+      <edge id="73" source="MaghrebiQM" target="MaghrabiArabi" weight="1" />
+      <edge id="74" source="MaghrebiQM" target="Uncle_SamCoco" weight="2" />
+      <edge id="75" source="ansarakhilafa" target="MaghrabiArabi" weight="6" />
+      <edge id="76" source="MilkSheikh2" target="Uncle_SamCoco" weight="1" />
+      <edge id="77" source="MilkSheikh2" target="moustiklash" weight="1" />
+      <edge id="78" source="FidaeeFulaani" target="MaghrabiArabi" weight="4" />
+      <edge id="79" source="FidaeeFulaani" target="mustaklash" weight="1" />
+      <edge id="80" source="FidaeeFulaani" target="moustiklash" weight="1" />
+      <edge id="81" source="MaghrebiHD" target="MaghrabiArabi" weight="1" />
+      <edge id="82" source="MaghrebiHD" target="Uncle_SamCoco" weight="1" />
+      <edge id="83" source="moustiklash" target="WarReporter1" weight="2" />
+      <edge id="84" source="moustiklash" target="Uncle_SamCoco" weight="4" />
+      <edge id="85" source="thefIamesofhaqq" target="WarReporter1" weight="5" />
+      <edge id="86" source="WhiteCat_7" target="mobi_ayubi" weight="4" />
+      <edge id="87" source="QassamiMarwan" target="MaghrabiArabi" weight="8" />
+      <edge id="88" source="safiyaimback" target="WarReporter1" weight="1" />
+      <edge id="89" source="MaghrabiArabi" target="ManKhalfahum" weight="1" />
+      <edge id="90" source="Uncle_SamCoco" target="WarReporter1" weight="13" />
     </edges>
   </graph>
 </gexf>

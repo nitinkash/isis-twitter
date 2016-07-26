@@ -70,17 +70,29 @@ for mon in month_:
 			g.add_node(i)
 	edges = {}
 	occ_count = Counter(map(tuple, in_set)) #Map in_set to a tuple
+	'''	
 	for (sender, receiver), count in occ_count.items():
 		edges = g.edges()
 		if (sender, receiver) not in edges:		
 			g.add_edge(sender, receiver) 
-
+	'''
+	for (sender, receiver), count in occ_count.items():
+		if (receiver, sender) in edges.keys():
+			edges[(receiver, sender)] = edges[(receiver, sender)] + count
+		else:
+			edges[(sender, receiver)] = count		
+	for (sender, receiver), count in edges.items():
+		g.add_edge(sender, receiver, weight=count)
 	#Export to gexf for gephi
-	file_name = "mentions_network_" + str(mon)+'_.gexf'
+	
 	
 	if len(g.nodes()) > 0:
+		bb = nx.eigenvector_centrality(g, weight='weight')
+		print(bb)
+		nx.set_node_attributes(g, 'betweenness', bb)
+		file_name = "mentions_network_" + str(mon)+'_.gexf'
 		nx.write_gexf(g, file_name)		
-		#nx.draw_spring(g, with_labels=True)
+		#nx.draw_networkx(g, with_labels=True, node_size=bb)
 		#plt.draw()
 		#plt.show()
 

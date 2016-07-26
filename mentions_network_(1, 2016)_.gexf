@@ -1,29 +1,76 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="betweenness" type="double" />
+    </attributes>
     <nodes>
-      <node id="mobi_ayubi" label="mobi_ayubi" />
-      <node id="MaghrebiQM" label="MaghrebiQM" />
-      <node id="AsimAbuMerjem" label="AsimAbuMerjem" />
-      <node id="AbuNaseeha_03" label="AbuNaseeha_03" />
-      <node id="ismailmahsud" label="ismailmahsud" />
-      <node id="WhiteCat_7" label="WhiteCat_7" />
-      <node id="RamiAlLolah" label="RamiAlLolah" />
-      <node id="warreporter2" label="warreporter2" />
-      <node id="MaghrabiArabi" label="MaghrabiArabi" />
-      <node id="QassamiMarwan" label="QassamiMarwan" />
-      <node id="Uncle_SamCoco" label="Uncle_SamCoco" />
+      <node id="QassamiMarwan" label="QassamiMarwan">
+        <attvalues>
+          <attvalue for="0" value="0.3312226370597573" />
+        </attvalues>
+      </node>
+      <node id="AsimAbuMerjem" label="AsimAbuMerjem">
+        <attvalues>
+          <attvalue for="0" value="0.045236798778038136" />
+        </attvalues>
+      </node>
+      <node id="warreporter2" label="warreporter2">
+        <attvalues>
+          <attvalue for="0" value="0.18094719511215254" />
+        </attvalues>
+      </node>
+      <node id="WhiteCat_7" label="WhiteCat_7">
+        <attvalues>
+          <attvalue for="0" value="2.0296620315697572e-71" />
+        </attvalues>
+      </node>
+      <node id="MaghrebiQM" label="MaghrebiQM">
+        <attvalues>
+          <attvalue for="0" value="6.973865638020021e-61" />
+        </attvalues>
+      </node>
+      <node id="AbuNaseeha_03" label="AbuNaseeha_03">
+        <attvalues>
+          <attvalue for="0" value="1.3947731276040043e-60" />
+        </attvalues>
+      </node>
+      <node id="MaghrabiArabi" label="MaghrabiArabi">
+        <attvalues>
+          <attvalue for="0" value="0.6488976114338038" />
+        </attvalues>
+      </node>
+      <node id="RamiAlLolah" label="RamiAlLolah">
+        <attvalues>
+          <attvalue for="0" value="0.44311286591994714" />
+        </attvalues>
+      </node>
+      <node id="mobi_ayubi" label="mobi_ayubi">
+        <attvalues>
+          <attvalue for="0" value="2.0296620315697572e-71" />
+        </attvalues>
+      </node>
+      <node id="ismailmahsud" label="ismailmahsud">
+        <attvalues>
+          <attvalue for="0" value="0.48794076202778497" />
+        </attvalues>
+      </node>
+      <node id="Uncle_SamCoco" label="Uncle_SamCoco">
+        <attvalues>
+          <attvalue for="0" value="6.973865638020021e-61" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
-      <edge id="0" source="mobi_ayubi" target="WhiteCat_7" />
-      <edge id="1" source="MaghrebiQM" target="AbuNaseeha_03" />
-      <edge id="2" source="AsimAbuMerjem" target="RamiAlLolah" />
-      <edge id="3" source="AbuNaseeha_03" target="Uncle_SamCoco" />
-      <edge id="4" source="ismailmahsud" target="RamiAlLolah" />
-      <edge id="5" source="ismailmahsud" target="MaghrabiArabi" />
-      <edge id="6" source="RamiAlLolah" target="warreporter2" />
-      <edge id="7" source="RamiAlLolah" target="MaghrabiArabi" />
-      <edge id="8" source="MaghrabiArabi" target="QassamiMarwan" />
+      <edge id="0" source="QassamiMarwan" target="MaghrabiArabi" weight="5" />
+      <edge id="1" source="AsimAbuMerjem" target="RamiAlLolah" weight="1" />
+      <edge id="2" source="warreporter2" target="RamiAlLolah" weight="4" />
+      <edge id="3" source="WhiteCat_7" target="mobi_ayubi" weight="1" />
+      <edge id="4" source="MaghrebiQM" target="AbuNaseeha_03" weight="1" />
+      <edge id="5" source="AbuNaseeha_03" target="Uncle_SamCoco" weight="1" />
+      <edge id="6" source="MaghrabiArabi" target="RamiAlLolah" weight="4" />
+      <edge id="7" source="MaghrabiArabi" target="ismailmahsud" weight="6" />
+      <edge id="8" source="RamiAlLolah" target="ismailmahsud" weight="2" />
     </edges>
   </graph>
 </gexf>
