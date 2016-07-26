@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="AsimAbuMerjem" label="AsimAbuMerjem" />
+      <node id="ismailmahsud" label="ismailmahsud" />
+      <node id="Abu_Azzzam25" label="Abu_Azzzam25" />
+      <node id="mustaklash" label="mustaklash" />
+      <node id="Fidaee_Fulaani" label="Fidaee_Fulaani" />
+      <node id="abuhumayra4" label="abuhumayra4" />
+      <node id="grezz10" label="grezz10" />
+      <node id="AbuNaseeha_03" label="AbuNaseeha_03" />
+      <node id="darulhijrateyni" label="darulhijrateyni" />
+      <node id="MaghrabiArabi" label="MaghrabiArabi" />
+      <node id="WarReporter1" label="WarReporter1" />
+      <node id="ManKhalfahum" label="ManKhalfahum" />
+      <node id="warreporter2" label="warreporter2" />
+      <node id="WhiteCat_7" label="WhiteCat_7" />
+      <node id="FidaeeFulaani" label="FidaeeFulaani" />
+      <node id="mustafaklash56" label="mustafaklash56" />
+      <node id="RamiAlLolah" label="RamiAlLolah" />
+      <node id="MaghrebiQM" label="MaghrebiQM" />
+      <node id="1515Ummah" label="1515Ummah" />
+      <node id="Uncle_SamCoco" label="Uncle_SamCoco" />
+      <node id="mobi_ayubi" label="mobi_ayubi" />
+      <node id="warrnews" label="warrnews" />
+      <node id="NaseemAhmed50" label="NaseemAhmed50" />
+      <node id="QassamiMarwan" label="QassamiMarwan" />
+      <node id="ansarakhilafa" label="ansarakhilafa" />
+    </nodes>
+    <edges>
+      <edge id="0" source="AsimAbuMerjem" target="RamiAlLolah" />
+      <edge id="1" source="AsimAbuMerjem" target="warrnews" />
+      <edge id="2" source="ismailmahsud" target="RamiAlLolah" />
+      <edge id="3" source="ismailmahsud" target="MaghrabiArabi" />
+      <edge id="4" source="Abu_Azzzam25" target="RamiAlLolah" />
+      <edge id="5" source="mustaklash" target="FidaeeFulaani" />
+      <edge id="6" source="Fidaee_Fulaani" target="MaghrebiQM" />
+      <edge id="7" source="abuhumayra4" target="RamiAlLolah" />
+      <edge id="8" source="grezz10" target="ManKhalfahum" />
+      <edge id="9" source="AbuNaseeha_03" target="MaghrebiQM" />
+      <edge id="10" source="AbuNaseeha_03" target="Uncle_SamCoco" />
+      <edge id="11" source="darulhijrateyni" target="NaseemAhmed50" />
+      <edge id="12" source="MaghrabiArabi" target="QassamiMarwan" />
+      <edge id="13" source="MaghrabiArabi" target="MaghrebiQM" />
+      <edge id="14" source="MaghrabiArabi" target="ManKhalfahum" />
+      <edge id="15" source="MaghrabiArabi" target="RamiAlLolah" />
+      <edge id="16" source="MaghrabiArabi" target="ansarakhilafa" />
+      <edge id="17" source="WarReporter1" target="RamiAlLolah" />
+      <edge id="18" source="WarReporter1" target="warrnews" />
+      <edge id="19" source="WarReporter1" target="Uncle_SamCoco" />
+      <edge id="20" source="warreporter2" target="RamiAlLolah" />
+      <edge id="21" source="WhiteCat_7" target="mobi_ayubi" />
+      <edge id="22" source="FidaeeFulaani" target="mustafaklash56" />
+      <edge id="23" source="RamiAlLolah" target="mobi_ayubi" />
+      <edge id="24" source="RamiAlLolah" target="Uncle_SamCoco" />
+      <edge id="25" source="RamiAlLolah" target="MaghrebiQM" />
+      <edge id="26" source="MaghrebiQM" target="Uncle_SamCoco" />
+      <edge id="27" source="1515Ummah" target="Uncle_SamCoco" />
+    </edges>
+  </graph>
+</gexf>
